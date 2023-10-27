@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS DIGITAL WATCH</title>
+	<style>
+		div{
+			background-color: blue;
+			padding: 30px;
+			border-radius: 20px;
+			margin: 100px auto;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<h1>indianwatch</h1>
+	<h3>ASIA/kolkata</h3>
+	<h2 >time</h2>
+
+</div>
+<script >
+	let indianwatch=()=>
+	{
+		let currentTime=new Date().toLocaleTimeString();//predifined function for getting current time
+		let displayTimetag=document.querySelector("h2");//for getting <h2>time</h2>
+		displayTimetag.innerText=currentTime;//time=current time
+	}
+	indianwatch()//function call for executing above function
+	setInterval(indianwatch,1000)//predefined function for repeat frequently
+
+</script>
+</body>
+</html>
