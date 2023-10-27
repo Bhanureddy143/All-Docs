@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css ball bouncing</title>
+	<style >
+	body{
+		background:black ;
+		
+	}
+	p
+	{
+		color: white;
+	}
+	#a
+	{
+		
+		width:60px ;
+		height: 60px;
+		background: red;
+		border-radius: 30px;
+		border: blue solid 2px;
+		position: relative;
+		top: 150px;
+		left: 350px;
+		animation: a 0.5s linear 0s infinite alternate;
+	}
+	@keyframes a
+	{
+		0%
+		{
+
+			transform:translatey(-100px);
+		}
+		100%
+		{
+			
+			transform:translatey(100px);
+		}
+	}
+	#b
+	{
+		
+		width:60px ;
+		height: 60px;
+		background: blue;
+		border-radius: 30px;
+		border: red solid 2px;
+		position: absolute;
+		top: 200px;
+		left: 450px;
+		animation: a 0.7s linear 0s infinite alternate;
+	}
+	@keyframes a
+	{
+		0%
+		{
+			transform:translatey(100px);
+		}
+		100%
+		{
+			transform:translatey(-150px);
+		}
+	}
+	#c
+	{
+		
+		width:60px ;
+		height: 60px;
+		background: yellow;
+		border-radius: 30px;
+		border: blue solid 2px;
+		position: absolute;
+		top: 200px;
+		left: 540px;
+		animation: a 0.9s linear 0s infinite alternate;
+	}
+	@keyframes a
+	{
+		0%
+		{
+			transform:translatey(-100px);
+		}
+		100%
+		{
+			transform:translatey(100px);
+		}
+	}
+	#d
+	{
+		
+		width:60px ;
+		height: 60px;
+		background: green;
+		border-radius: 30px;
+		border: white solid 2px;
+		position: absolute;
+		top: 200px;
+		left: 620px;
+		animation: a 0.7s linear 0.5s infinite alternate;
+	}
+	@keyframes a
+	{
+		0%
+		{
+			transform:translatey(100px);
+		}
+		100%
+		{
+			transform:translatey(-150px);
+		}
+	}
+	#e
+	{
+		
+		width:60px ;
+		height: 60px;
+		background: orange;
+		border-radius: 30px;
+		border: blue solid 2px;
+		position: absolute;
+		top: 200px;
+		left: 690px;
+		animation: a 0.9s linear 0.5s infinite alternate;
+	}
+	@keyframes a
+	{
+		0%
+		{
+			transform:translatey(-100px);
+		}
+		100%
+		{
+			transform:translatey(100px);
+		}
+	}
+	#f
+	{
+		
+		width:60px ;
+		height: 60px;
+		background: hotpink;
+		border-radius: 30px;
+		border: blue solid 2px;
+		position: absolute;
+		top: 200px;
+		left: 760px;
+		animation: a 1.1s linear 0.7s infinite alternate;
+	}
+	@keyframes a
+	{
+		0%
+		{
+			transform:translatey(100px);
+		}
+		100%
+		{
+			transform:translatey(-150px);
+		}
+	}
+	
+	</style>
+	
+</head>
+<body>
+<p><marquee>BHANU REDDY</marquee></p>
+
+	<div id="a"></div>
+	<div id="b"></div>
+	<div id="c"></div>
+	<div id="d"></div>
+	<div id="e"></div>
+	<div id="f"></div>
+
+
+</body>
+</html>

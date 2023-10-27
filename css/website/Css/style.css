@@ -1,0 +1,108 @@
+body
+{
+	background: black url(https://thumbnails.production.thenounproject.com/SEF5hkCOuR-EyMH3HfKEJjRFeS0=/fit-in/1000x1000/photos.production.thenounproject.com/photos/2258403A-7F6D-4384-BE42-5F3C6ED7DFD4.jpg) no-repeat scroll;
+	background-size: cover;
+	height: 100%;
+}
+header
+{
+	width: 100%;
+	height: 70px;
+	margin-top: -10px;
+	background: linear-gradient(to right,blue,red);
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content	: space-evenly;
+}
+header h1
+{
+
+	margin-top: -10px;
+	padding-right: 10px;
+}
+#a a
+{
+background: orange;
+color: white;
+padding: 7px 15px;
+margin : 20px;
+text-decoration: none;
+border-radius: 20px;
+border: 1px black solid;
+}
+#a a:hover
+{
+	cursor: pointer;
+	box-shadow: 0 0 10px white;
+
+}
+#landingpage
+{
+	height: 600px;
+	background: white url(https://i.pinimg.com/originals/0c/22/f2/0c22f248771812f3fb0648376b06499b.jpg) no-repeat scroll;
+	background-size: cover
+	
+}
+ .b
+{
+	;
+	border: 3px solid blue;
+	height: 100%;
+	width: 100%;
+}
+#b
+{
+	color: red;
+	text-align: center;
+
+
+}
+.b a{
+	
+	text-decoration: none;
+	padding: 10px;
+	background: orange;
+	border-radius: 20px;
+	width: 70px;
+	margin-left: 600px;
+	margin-top: -50px;
+
+}
+.b a:hover
+{
+	cursor: pointer;
+	box-shadow: 0 0  10px whitesmoke;
+}
+section
+{ width: 100%;
+	height: 100%;
+	margin-top: 150px;
+
+}
+section article
+{margin-bottom: 30px;
+display: inline-block;
+margin-left: 70px;
+width: 250px;
+height: 400px;
+border: 2px black; solid;
+border-radius: 20px;
+background: lightcoral;
+transition: all 1s linear 0s;
+}
+ article h2,p
+{
+	color: white;
+}
+
+article img
+{
+width: 250px;
+height: 150px;
+margin-top: -20px;
+}
+section article:hover
+{
+	transform: scale(1.1,1.1);
+}

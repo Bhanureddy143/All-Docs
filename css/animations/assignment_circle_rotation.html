@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css round</title>
+	<style>
+	
+ 
+
+		#b
+	{
+	padding: 30px;
+	border: solid red 3px;
+	margin: 50px 0px 0px 500px;
+	border-radius: 100px;
+	width: 20px;
+	height: 20px;
+	background: linear-gradient(to right,red,blue,white);
+	
+	animation: ab 2s linear 0s infinite normal;
+	
+	transform-origin: center;
+	
+	}
+	@keyframes ab
+	{
+		0%
+		{
+			top:0px;
+			left: 0px;
+			transform:rotate(360deg);
+		}
+	
+			
+	}
+
+		#a
+	{
+	padding: 30px;
+	border: solid red 3px;
+	margin: 50px 0px 0px 500px;
+	border-radius: 100px;
+	margin: -80px 0px 0px 400px ;
+	width: 20px;
+	height: 20px;
+	background: linear-gradient(to right,red,blue,white,black);
+	
+	animation: a 2s linear 0s infinite reverse;
+	
+	transform-origin: center;
+	
+	}
+	@keyframes a
+	{
+		0%
+		{
+			top:0px;
+			left: 0px;
+			transform:rotate(360deg);
+		}
+	
+			
+	}
+	</style>
+</head>
+<body>
+	
+<div id="b"></div>
+<div id="a"></div>
+</body>
+</html>

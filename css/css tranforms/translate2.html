@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS TRASLATE PROPERTY2</title>
+	<style >
+		#a{
+			padding: 20px;
+			border: 2px red solid;
+			border-radius: 10px;
+			margin: 50px auto;
+			width: 200px;
+			height: 200px;
+			position: relative;
+			overflow: hidden;
+		}
+		div img{
+		border-radius: inherit;
+		margin: inherit;
+		height: inherit;
+		width: inherit;
+		position: absolute;
+		top: -30px;
+		transition: all 3s linear 0s;
+		}
+		div:hover img{
+			transform: translateY(-90px);
+			cursor: pointer;
+
+		}
+		 .a{
+		 	position: relative;
+			top: 200px;
+			width: 200px;
+			transition: all 2s linear 0s;
+		}
+		ul{
+			border: 2px blue solid;
+			color: white;
+			background: black;
+		}
+		li{
+			border: solid white 2px;
+			list-style-type: none;
+			text-align: center;
+			margin-top: 5px;
+		}
+		div:hover .a{
+			transform: translateY(-110px);
+
+		}
+
+	</style>
+</head>
+<body>
+	<div id="a">
+	<img src="https://www.lovingly.com/wp-content/uploads/2019/09/red-rose-on-black-background.jpg">
+	<div class="a"> 
+		<ul>
+		<li>Rose</li>
+		<li>red</li>
+		<li>&#8377;10.00</li>	
+		</ul>
+	</div>	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css absoliute position</title>
+	<style >
+		
+		#first{
+			background: linear-gradient(90deg,orange,white,green);
+			width: 400px;
+			height: 250px;
+			position: relative;
+		}
+		#second{
+			background: linear-gradient(90deg,violet,cyan,deeppink);
+			width: 300px;
+			height: 200px;
+			position: relative;
+		}
+		#third{
+			background: linear-gradient(90deg,red,yellow,blue);
+			width: 200px;
+			height: 150px;
+			position: relative;
+		}
+		#absoliute{
+			background: linear-gradient(90deg,blue,pink,white);
+			top: 20px;
+			left: 10px;
+			position: absolute;
+			width: 100px;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+<div id="first">
+	<div id="second">
+		<div id="third">
+			<div id="absoliute">
+				<p>ABSOLUTE</p>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>

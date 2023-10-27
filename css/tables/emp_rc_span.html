@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>emp table with spans</title>
+	<style >
+		th{
+			color: red;
+			text-decoration-style: dotted;
+			font-size: 20px;
+		}
+		td{
+			color: blue;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1>table with attributes</h1>
+	<table cellpadding="20px" cellspacing="2px" border="2px">
+	<thead>
+		<tr>
+			<th>s.no</th>
+			<th>name</th>
+			<th>age</th>
+			<th colspan="2">designation</th>
+			
+			<th>salary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1.</td>
+			<td>raj</td>
+			<td>25</td>
+			<td>s/w developer</td>
+			<td>developer</td>
+			<td rowspan="3">30000</td>
+
+
+
+
+		</tr>
+		<tr>
+			<td>2.</td>
+			<td>rani</td>
+			<td rowspan="2">26</td>
+			<td rowspan="2">developer</td>
+			<td rowspan="2">asst. engineer</td>
+			
+
+		</tr>
+		<tr>
+			<td>3.</td>
+			<td>vani</td>
+			
+		</tr>
+	</tbody>
+	</table>
+
+</body>
+</html>

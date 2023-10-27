@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HAppy Birthday</title>
+	<style >
+	#abi
+		{
+			color: white;
+			background: linear-gradient(to right,red,blue,black,deeppink);
+			width: 150px;
+			font-size: 30px;
+			animation-name:b;
+			animation-delay: 0s;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-timing-function: linear;
+			transition: all 2s linear 0s ;
+			position: relative;
+		}
+		@keyframes b
+		{
+			0%
+			{
+				top: 0px;
+				left: 0px;
+				transform: translatex(0%);
+			}
+			100%
+			{
+				top: 0px;
+				left: 50%;
+				transform: translatex(50%);
+				
+			}
+		}
+		
+		#abc{
+			margin-left: 50%;
+			color: white;
+			background: linear-gradient(to right,red,blue,black,deeppink);
+			width: 150px;
+			font-size: 30px;
+			animation-name:bh;
+			animation-delay: 0s;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-timing-function: linear;
+			transition: all 2s linear 0s ;
+		}
+		@keyframes bh
+		{
+			0%
+			{
+				
+				transform: translateY(0%);
+			}
+			100%
+			{
+				
+				transform: translateY(500px);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="abi"><b><i>happy</i></b></div>
+	<div id="abc"><b><i>Birthday</i></b></div>
+</body>
+</html> 

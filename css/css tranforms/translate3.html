@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> css transition property</title>
+	<style >
+		div{
+			padding: 20px;
+			width: 200px;
+			height: 200px;
+			margin: 50px auto;
+			border: 2px red solid;
+			position: relative;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+		div img
+		{
+            
+            border-radius: inherit;
+            width: inherit;
+            height: inherit;
+           transition: all 2s linear 0s;
+
+		}
+		div:hover img
+		{
+			cursor: pointer;
+			transform: translateY(-120px);
+		}
+		.a{
+			background: black;
+			color: white;
+			position: absolute;
+			top: 200px;
+			 border: blue solid 2px;
+			 width: 150px;
+			 height: 70px;
+			 transition: all 3s linear 1s;
+			
+		}
+		div ul {
+			list-style-type: none;
+			background-color: 10px;
+
+		}
+		div:hover .a{
+			transform: translateY(-140px);
+			
+		}
+		
+		ul li{
+			margin-top: 3px;
+			text-align: center;
+			border: 2px white solid;
+		}
+
+	</style>
+</head>
+<body>
+<div>
+	<img src="red.jpg">
+	<div class="a">
+		<ul>
+			<li>redshirt</li>
+			<li>us polo</li>
+			<li>&#8377;1299.00</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
